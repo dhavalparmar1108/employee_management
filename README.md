@@ -1,15 +1,43 @@
-# "Express JS Tutorial - MVC Example CRUD REST API"
+# Employee Management System (Backend)
 
-✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
+## 🚀 Overview
+The **Employee Management System** is a backend API built with **Node.js** and **Express.js**. It provides RESTful endpoints for managing employee data, including adding, updating, deleting, and retrieving employee records. The system ensures efficient data handling and can be integrated with any frontend.
 
-**Description:**
+## 🛠 Features
+- 📌 **Create** new employee records.
+- 🔍 **Read** employee details.
+- ✏️ **Update** existing employee information.
+- 🗑 **Delete** employees.
+- 🔐 Secure API with authentication Run the server.
 
-This repository shares the code applied during the Youtube tutorial. The tutorial is part of a [Node.js & Express for Beginners Playlist](https://www.youtube.com/playlist?list=PL0Zuz27SZ-6PFkIxaJ6Xx_X46avTM1aYw) on my channel.  
+## 🏗 Tech Stack
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB 
+- **Authentication:** JWT 
+- **Version Control:** Git & GitHub
 
-[YouTube Tutorial](https://youtu.be/Dco1gzVZKVk) for this repository.
+## 📂 Project Setup
+Follow these steps to set up the project locally:
 
-I suggest completing my [8 hour JavaScript course tutorial video](https://youtu.be/EfAl9bwzVZk) if you are new to Javascript.
+### 1️ Clone the repository
+```bash
+git clone https://github.com/dhavalparmar1108/employee_management.git
+cd employee_management
+```
 
-### Academic Honesty
+### 2 install dependecies
+```
+npm install
+```
 
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this [Academic Honesty Policy](https://www.freecodecamp.org/news/academic-honesty-policy/).
+### 3 Configure Environment Variables
+```bash
+PORT=3500
+DB_URI=your_database_connection_string
+JWT_SECRET=your_secret_key 
+```
+
+### 4 Run the server
+```bash 
+npm start
+```
